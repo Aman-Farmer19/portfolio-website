@@ -23,6 +23,12 @@ export function SiteHeader() {
     }
   }, [open])
 
+  const hireHref = `mailto:${profile.email}?subject=${encodeURIComponent(
+    'Opportunity for Aman Tiwari',
+  )}&body=${encodeURIComponent(
+    "Hi Aman,\n\nI came across your portfolio and would like to discuss an opportunity with you.\n\n",
+  )}`
+
   return (
     <header
       className={cn(
@@ -54,7 +60,7 @@ export function SiteHeader() {
 
         <div className="hidden md:block">
           <a
-            href={`mailto:${profile.email}`}
+            href={hireHref}
             className="rounded-lg bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Hire Me
@@ -89,7 +95,7 @@ export function SiteHeader() {
               </a>
             ))}
             <a
-              href={`mailto:${profile.email}`}
+              href={hireHref}
               onClick={() => setOpen(false)}
               className="mt-2 rounded-lg bg-primary px-3 py-3 text-center text-sm font-semibold text-primary-foreground"
             >
