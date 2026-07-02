@@ -1,5 +1,5 @@
 import { ArrowUpRight, GraduationCap } from 'lucide-react'
-import { GithubIcon } from '@/components/brand-icons'
+import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
 import { profile } from '@/lib/portfolio-data'
 
 export function HeroSection() {
@@ -43,6 +43,15 @@ export function HeroSection() {
             >
               <GithubIcon className="size-4" />
               GitHub Profile
+            </a>
+            <a
+              href={profile.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-border bg-secondary px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              <LinkedinIcon className="size-4" />
+              LinkedIn
             </a>
           </div>
         </div>
