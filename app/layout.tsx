@@ -18,7 +18,7 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: 'Aman Tiwari | Software Engineer & GenAI Developer',
   description:
-    'Portfolio of Aman Tiwari — an aspiring software engineer and Generative AI developer building intelligent web systems and scalable cloud architectures.',
+    'Portfolio of Aman Tiwari — a B.Tech CSE graduate, software engineer, and Generative AI developer building intelligent web systems and scalable cloud architectures.',
   generator: 'v0.app',
   icons: {
     icon: [
