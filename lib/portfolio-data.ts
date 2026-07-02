@@ -16,7 +16,6 @@ export const profile = {
   tagline:
     'A B.Tech CSE graduate working as a software engineer and Generative AI developer, focused on designing and deploying intelligent web systems and scalable cloud architectures.',
   email: 'amantripathi912@gmail.com',
-  phone: '+91 7355322660',
   github: 'https://github.com/Aman-Farmer19',
   linkedin: 'https://www.linkedin.com/in/tiwari-aman1999/',
   status: 'Available for opportunities',

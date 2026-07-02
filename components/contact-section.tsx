@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { LinkedinIcon } from '@/components/brand-icons'
 import { profile } from '@/lib/portfolio-data'
 
@@ -24,13 +24,6 @@ export function ContactSection() {
           >
             <Mail className="size-4" />
             {profile.email}
-          </a>
-          <a
-            href={`tel:${profile.phone.replace(/\s/g, '')}`}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-border bg-secondary px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-accent hover:text-accent-foreground sm:w-auto"
-          >
-            <Phone className="size-4" />
-            {profile.phone}
           </a>
           <a
             href={profile.linkedin}
