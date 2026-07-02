@@ -1,5 +1,5 @@
 import { Mail } from 'lucide-react'
-import { LinkedinIcon } from '@/components/brand-icons'
+import { InstagramIcon, LinkedinIcon } from '@/components/brand-icons'
 import { profile } from '@/lib/portfolio-data'
 
 export function ContactSection() {
@@ -33,6 +33,15 @@ export function ContactSection() {
           >
             <LinkedinIcon className="size-4" />
             LinkedIn
+          </a>
+          <a
+            href={profile.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-border bg-secondary px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-accent hover:text-accent-foreground sm:w-auto"
+          >
+            <InstagramIcon className="size-4" />
+            Instagram
           </a>
         </div>
       </div>

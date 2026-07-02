@@ -18,6 +18,7 @@ export const profile = {
   email: 'amantripathi912@gmail.com',
   github: 'https://github.com/Aman-Farmer19',
   linkedin: 'https://www.linkedin.com/in/tiwari-aman1999/',
+  instagram: 'https://www.instagram.com/i.m_aman19/',
   status: 'Available for opportunities',
 }
 
