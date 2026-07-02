@@ -59,9 +59,9 @@ export function HeroSection() {
               </div>
               <div>
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-                  Currently
+                  Education
                 </p>
-                <h2 className="mt-1 font-heading text-2xl">B.Tech Student</h2>
+                <h2 className="mt-1 font-heading text-2xl">B.Tech Graduate</h2>
                 <p className="mt-1 text-sm text-muted-foreground">
                   Kashi Institute of Technology
                 </p>
@@ -73,7 +73,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="font-heading text-3xl text-foreground">2026</p>
-                  <p className="text-xs text-muted-foreground">Graduation</p>
+                  <p className="text-xs text-muted-foreground">Graduated</p>
                 </div>
               </div>
             </div>

@@ -18,7 +18,7 @@ export const profile = {
   email: 'amantripathi912@gmail.com',
   phone: '+91 7355322660',
   github: 'https://github.com/Aman-Farmer19',
-  linkedin: '#',
+  linkedin: 'https://www.linkedin.com/in/tiwari-aman1999/',
   status: 'Available for opportunities',
 }
 
@@ -128,7 +128,7 @@ export type TimelineItem = {
 
 export const education: TimelineItem[] = [
   {
-    period: '08/2022 – 06/2026',
+    period: '08/2022 – 06/2026 · Completed',
     title: 'B.Tech in Computer Science and Engineering',
     subtitle: 'Kashi Institute of Technology (AKTU, Lucknow)',
     highlight: 'CGPA 7.95',
