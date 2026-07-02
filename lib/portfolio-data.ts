@@ -14,7 +14,7 @@ export const profile = {
   name: 'Aman Tiwari',
   role: 'Software Engineer & Generative AI Developer',
   tagline:
-    'A B.Tech CSE graduate working as a software engineer and Generative AI developer, focused on designing and deploying intelligent web systems and scalable cloud architectures.',
+    'A B.Tech CSE graduate specializing in software engineering and Generative AI development, focused on designing and deploying intelligent web systems and scalable cloud architectures.',
   email: 'amantripathi912@gmail.com',
   github: 'https://github.com/Aman-Farmer19',
   linkedin: 'https://www.linkedin.com/in/tiwari-aman1999/',
